@@ -1,3 +1,3 @@
 # mxg-msm
 
-*封装了axios为request
+##封装了axios为request
