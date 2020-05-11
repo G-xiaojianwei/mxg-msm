@@ -3,7 +3,7 @@ import axios from "axios"
 //封装axios
 
 const request = axios.create({
-    baseUrl:process.env.VUE_APP_BASE_API, //基础路径
+    baseURL:process.env.VUE_APP_SERVICE_URL, //基础路径  注意：baseURL的url要大写
     // baseUrl:"/", //基础路径
     timeUrl:5000, //请求超时5000
 })

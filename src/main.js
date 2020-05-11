@@ -7,6 +7,8 @@ import router from "./router";
 //使用组件库
 Vue.use(ElementUI);
 
+import permission from "./permission.js"
+
 Vue.config.productionTip = process.env.NODE_ENV ==="production";
 new Vue({
   router,

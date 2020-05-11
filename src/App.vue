@@ -4,6 +4,12 @@
   </div>
 </template>
 
-<style lang="scss">
-
+<style>
+  body{
+    font-family: "微软雅黑";
+  }
+  *{
+      padding: 0;
+      margin:0;
+    }
 </style>
